@@ -15,12 +15,10 @@ export class AppComponent implements OnInit {
     {
       title: 'Inbox',
       url: '/folder/Inbox',
-      icon: 'mail'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
-      icon: 'paper-plane'
+      title: 'Now Idaho',
+      url: '/folder/Now Idaho',
     },
     {
       title: 'Favorites',
@@ -43,7 +41,6 @@ export class AppComponent implements OnInit {
       icon: 'warning'
     }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
   constructor(
     private platform: Platform,
