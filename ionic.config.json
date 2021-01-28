@@ -1,0 +1,8 @@
+{
+  "name": "idi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "45be4cef"
+}
